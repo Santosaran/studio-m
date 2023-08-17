@@ -1,0 +1,200 @@
+:root{
+    --var-clr-lite-sandal: #A99985;
+    --var-clr-lite-black: #262626;
+    --var-clr-lite-white: #FEFEFE;
+    --var-font-heebo: font-family: 'Heebo', sans-serif;
+    --var-font-playfair: font-family: 'Playfair Display', serif;
+}
+
+
+body{
+    background-color: var(--var-clr-lite-white);
+    color: var(--var-clr-lite-black);
+}
+
+.main-section{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1616137303871-05ce745f9cdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvbWUlMjBkZWNvcnxlbnwwfDB8MHx8fDI%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: 100%;
+    background-blend-mode: darken;
+}
+
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--var-clr-lite-white);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--var-clr-lite-white);
+    --bs-nav-link-hover-color: rgb(100 96 96 / 70%);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+.main-head1{
+    font-size: 250px;
+    font-weight: 400;
+    font-family: var(--var-font-playfair);
+    color: var(--var-clr-lite-white);
+}
+
+
+
+.main-head2{
+    font-size: 250px;
+    font-weight: 400;
+    font-family: var(--var-font-playfair);
+    color: var(--var-clr-lite-white);
+}
+
+.main-headhr{
+    border-top: 18px solid rgb(217, 213, 213);
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.main-para{
+    font-size: 20px;
+    color: var(--var-clr-lite-white);
+    padding: 1rem;
+}
+
+.second-section{
+    background-color: var(--var-clr-lite-black);
+    color: var(--var-clr-lite-white);
+}
+
+.second-side{
+    margin: 8rem 0;
+    font-size: 26px;
+    padding: 1.5rem;
+}
+
+.second-side2{
+    margin: 8rem 0;
+}
+
+.studp{
+    padding: 2rem 0;
+}
+
+.sec-head{
+    color: var(--var-clr-lite-sandal);
+}
+
+.third-head{
+    margin-top: 4rem;
+    color: var(--var-clr-lite-sandal);
+}
+
+.third-head2{
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.third-section{
+    background-color: var(--var-clr-lite-black);
+    color: var(--var-clr-lite-white);
+}
+
+.thrd-side{
+    margin: 3rem 0;
+    font-size: 26px;
+}
+
+.fourth-section{
+    background-color: var(--var-clr-lite-black);
+    color: var(--var-clr-lite-white);   
+}
+
+.colimg{
+    margin-top: 5rem;
+    max-width: 100%;
+}
+
+.colimg:hover{
+    cursor: pointer;
+    background-color: var(--var-clr-lite-black);
+}
+
+.fifth-section{
+    background-color: var(--var-clr-lite-black);
+    color: var(--var-clr-lite-white);  
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: var(--var-clr-lite-black);
+    background-clip: padding-box;
+    border-bottom: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.fifth-side1{
+    margin-top: 3rem;
+    font-size: 30px;
+}
+
+.footer{
+    background-color: var(--var-clr-lite-black);
+    color: var(--var-clr-lite-white);  
+}
+
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:45.25%;
+    position:relative;
+    height:0;
+}
+
+  .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    margin-top: 3rem;
+    position:absolute;
+  }
+
+  .footer-layout{
+    padding: 2rem;
+  }
+
+  .footer-layout1{
+    padding: 0 0.6rem;
+    margin: 8rem 0;
+  }
+
+
+  .ai-text{
+    font-size: 30px;
+  }
+
