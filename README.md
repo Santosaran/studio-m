@@ -1,5 +1,5 @@
 # studio-m 
-   im  created a interior design 
+   im  created a interior design
 
 # Click here 
 
